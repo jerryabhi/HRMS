@@ -37,17 +37,21 @@ export const InfoHeader = () => {
                 alt="@shadcn"
               />
             </Avatar>
-            <div className="flex-1 ml-4">
+            <div className="ml-4 flex flex-col">
               <div className="text-xl font-bold">Janey Jaye</div>
-              <div className="text-sm">Full-time</div>
-              <div className="text-sm">Marketing</div>
-              <div className="text-sm">Pune</div>
-              <div className="flex items-center mt-2">
-                <span className="text-sm">example@cloudprism.in</span>
+              <div className="flex items-center mt-1">
+                <span className="text-sm w-[30%]">Full-time</span>
+                <span className="text-sm w-[40%]">example@cloudprism.in</span>
                 <span className="mx-2 border-r h-4 border-gray-300"></span>
-                <span className="text-sm">Reports to Abhishek</span>
+                <span className="text-sm w-[30%]">Reports to Abhishek</span>
               </div>
-              <div className="text-sm">+910000000000</div>
+              <div className="flex items-center mt-1">
+                <span className="text-sm w-[25%]">Marketing</span>
+                <span className="text-sm w-[35%]">+910000000000</span>
+                <span className="mx-2 border-r h-4 border-gray-300"></span>
+                <span className="text-sm w-[35%]">Abhishek</span>
+              </div>
+              <div className="text-sm mt-1">Pune</div>
             </div>
           </CardContent>
         </Card>

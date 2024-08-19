@@ -1,8 +1,8 @@
+import AssetPage from "@/components/Info/AssetPage";
 import Header from "@/components/shared/Header";
 import InfoHeader from "@/components/shared/InfoHeader";
 import logo from "@/assets/img/logo.png";
 import { Layout } from "@/components/shared/Layout";
-import BasicPage from "@/components/Info/BasicPage";
 
 export const InfoPage = () => {
   return (
@@ -33,7 +33,7 @@ export const InfoPage = () => {
       <div className="border border-black flex-1">
         <Header />
         <InfoHeader />
-        <BasicPage />
+        <AssetPage />
       </div>
     </div>
   );
