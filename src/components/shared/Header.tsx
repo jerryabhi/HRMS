@@ -5,7 +5,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 export const Header = () => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center mt-3">
       <div className="relative ml-[261px]  w-[422px] h-[29px] ">
         <img
           src={search}

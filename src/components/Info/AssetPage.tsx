@@ -5,7 +5,7 @@ import asset from "@/assets/img/monitor-mobbile.svg";
 
 export const AssetPage = () => {
   return (
-    <div>
+    <div className="ml-[40px] mt-5">
       <div>
         <div className="m-1 flex items-start">
           <img
@@ -24,10 +24,10 @@ export const AssetPage = () => {
               height={15}
               width={15}
             />
-            Create Tasks
+            Request assets
           </Button>
         </div>
-        <Card className="w-[999px] h-[295px]">
+        <Card className="w-[999px] h-[295px] mt-2">
           <CardHeader className="border border-[#E3E3E3] flex px-4 py-2">
             <div className="flex space-x-4 w-full">
               <span className="font-urbanist">Category</span>
@@ -43,10 +43,18 @@ export const AssetPage = () => {
           </CardContent>
         </Card>
       </div>
-      <img src={asset} alt="" className="inline mr-2" height={18} width={18} />
-      Issue Status
-      <div className="flex">
-        <Card className="w-[485px] h-[325px]">
+      <div className="text-left mt-3">
+        <img
+          src={asset}
+          alt=""
+          className="inline mr-2"
+          height={18}
+          width={18}
+        />
+        Issue Status
+      </div>
+      <div className="flex mt-2">
+        <Card className="w-[485px] h-[350px] overflow-y-auto">
           <CardContent className="mt-4">
             <div className="flex w-full mb-3">
               <span className="w-[60%] text-left font-urbanist">
@@ -95,7 +103,7 @@ export const AssetPage = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="w-[485px] h-[325px] ml-[27px]">
+        <Card className="w-[485px] h-[350px] ml-[27px] overflow-y-auto">
           <CardContent className="mt-4">
             <div className="flex w-full mb-3">
               <span className="w-[60%] text-left font-urbanist">

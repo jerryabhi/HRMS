@@ -30,7 +30,10 @@ export const Profiletask = () => {
             <div className="flex-1">
               <p className="font-urbanist  font-bold">Jane Joey.</p>
 
-              <a href="/info" className="text-[#1FBE8E] font-urbanist ml-4">
+              <a
+                href="/info"
+                className="text-[#1FBE8E] font-urbanist text-left"
+              >
                 View Bio
               </a>
             </div>
